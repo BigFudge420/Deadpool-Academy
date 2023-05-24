@@ -1,0 +1,39 @@
+body{
+    height: 100vh;
+    overflow: scroll;
+    margin: 0;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: antiquewhite;
+    background-color: black;
+    padding: 8px;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 8px;
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 100px;
+    height: auto;
+    position: relative;
+    top: 12.5px;
+}
