@@ -103,6 +103,43 @@ a{
     top: 13.5px;
 }
 
+.testimonial > .title{
+    text-align: center;
+    font-weight: 900;
+    font-size: 24px;
+    color: black;
+    text-shadow: 2px 2px 6px black;
+    
+}
+
+.testimonial > .quote{
+    border: 3px solid black;
+    padding: 15px 15px 15px 15px;
+    border-radius: 10px;
+    background-color: #860909;
+    color: white;
+    text-align: center;
+}
+
+cite{
+    font-weight: 1000;
+}
+
+.testimonial > blockquote{
+    font-weight: 700;
+
+}
+
+.hero{
+    border-bottom: 5px solid #860909 ;
+}
+
+
+.wall-border{
+    border-top: 5px solid #860909;
+    margin:46px -11px;
+}
+
 .footer,
 .content{
     padding: 0px 10px;
