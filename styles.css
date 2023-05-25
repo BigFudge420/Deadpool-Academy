@@ -112,12 +112,13 @@ a{
     
 }
 
-.testimonial > .quote{
+.testimonial > .says{
     border: 3px solid black;
     padding: 15px 15px 15px 15px;
     border-radius: 10px;
     background-color: #860909;
     color: white;
+    box-shadow: 5px 5px #909193;
     text-align: center;
 }
 
@@ -144,4 +145,115 @@ cite{
 .content{
     padding: 0px 10px;
 }
+
+.wall-of-wisdom > .wall{
+    text-align: center;
+    font-weight: 900;
+    font-size: 30px;
+    margin-top: -14px;
+    color: black;
+    text-shadow: 2px 2px 6px black;
+}
+
+.quote{
+    display: flex;
+}
+
+.chibi{
+    width: 100px;
+    height: auto;
+}
+
+.one > blockquote{
+    margin-left: 180px;
+    position: relative;
+    top: -10px;
+    border: 5px solid #860909;
+    padding: 10px;
+    border-radius: 15px;
+    color: white;
+    background-color: black;
+    box-shadow: 5px 5px #909193;
+}
+
+.one > .image{
+    margin-left:auto;
+    position: relative;
+    left: -200px;
+    top: -20px;
+    background-color: #909193;
+    border: 4px solid black;
+    border-radius: 15px;
+    padding:-5px 10px ;
+    box-shadow: 5px 5px #909193;
+}
+
+.two > .image{
+    border-radius: 15px;
+    padding: 0px 10px;
+    margin-right: auto;
+    position: relative;
+    box-shadow: -5px 5px #909193;
+    left: -610px;
+    top: -10px;
+    background-color: #f893b5;
+    border: 4px solid black;
+}
+
+.right{
+    margin-left: auto;
+}
+
+
+.three > .image{
+    margin-left:auto;
+    position: relative;
+    left: -200px;
+    top: -10px;
+    background-color: #9bd2dd;
+    border: 4px solid ;
+    box-shadow: 5px 5px #909193;
+    border-radius: 15px;
+    padding:5px 10px ;
+}
+
+.three > blockquote{
+    width: 700px;
+    position: relative;
+    left: 140px;
+    border: 4px solid;
+    background-color: black;
+    color: white;
+    border: 5px solid #860909;
+    border-radius: 15px;
+    padding: 0px 10px;
+    padding-right: -6px;
+    box-shadow: 5px 5px #909193;
+}
+
+.two > blockquote{
+    background-color: black;
+    color: white;
+    border: 5px solid #860909;
+    border-radius: 15px;
+    padding-bottom:-20px;
+    padding: 13px;
+    padding-top: 0px;
+    padding-bottom: 5px;
+    text-align: center;
+    box-shadow: -5px 5px #909193;
+}
+
+.middle{
+    margin-left: 160px;
+}
+
+.footer{
+    background-color: black;
+    color: white;
+    padding: 10px ;
+    margin-top: 30px;
+    text-align: center;
+}
+
 
