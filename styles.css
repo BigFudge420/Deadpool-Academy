@@ -108,7 +108,7 @@ a{
     font-weight: 900;
     font-size: 24px;
     color: black;
-    text-shadow: 2px 2px 6px black;
+    text-shadow: 2px 2px 4px black;
     
 }
 
@@ -152,7 +152,7 @@ cite{
     font-size: 30px;
     margin-top: -14px;
     color: black;
-    text-shadow: 2px 2px 6px black;
+    text-shadow: 2px 2px 4px black;
 }
 
 .quote{
